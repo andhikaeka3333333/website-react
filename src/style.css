@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #faf7f7; 
+  background-image: url("./bg.png");
+}
+
+img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.data-wisata {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px; 
+  background-color: #fff; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  margin: 24px 0;
+  padding: 16px;
+  border-radius: 12px; 
+  background-color: #fff; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.card-image img {
+  width: 200px;
+  margin: 8px; 
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+  transition: all 0.5s; 
+}
+
+.card-image img:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 6px 4px rgba(203, 102, 24, 0.3));
+}
+
+.card-body {
+  margin-left: 16px; 
+  padding-left: 16px;
+  border-left: 1px solid #ddd; 
+  flex: 1;
+}
+
+.card__delete {
+  padding: 8px;
+  font-size: 18px;
+  background-color: #ff69b4; 
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease; 
+}
+
+.card__delete:hover {
+  background-color: #ff99cc; 
+}
+
+
+
+
+
+
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+   
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: whitesmoke;
+  }
+   
+  img {
+    width: 100%;
+  }
+   
+  .biodata {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;   
+  }
+   
+  .card-list  h1 {
+    font-weight: normal;
+    font-size: 48px;
+    margin-bottom: 32px;
+  }
+   
+  .card {
+    display: flex;
+    align-items: center;
+    margin: 24px 0;
+    border: 1px dashed black;
+    padding: 16px;
+    border-radius: 8px;
+  }
+   
+  .card-image img{
+    width: 64px;
+    border-radius: 50%;
+  }
+   
+  .card-body {
+    margin-left: 8px;
+    padding-left: 8px;
+    border-left: 1px solid #aaa;
+    flex: 1;
+  }
+   
+  .card title {
+    padding: 4px 0;
+  }
+   
+  .card__username {
+    font-weight: lighter;
+  }
+   
+  .card__delete {
+    padding: 8px;
+    font-size: 18px;
+    background-color: orangered;
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+   
+  .card-input {
+    border: 1px dashed black;
+    padding: 16px;
+    margin: 14px 0;
+    border-radius: 8px;
+    margin-bottom: 32px;
+  }
+   
+  .card-input input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    font-family: 'Inter', sans-serif;
+  }
+   
+  .card-input button {
+    width: 100%;
+    padding: 8px;
+    font-family: 'Inter', sans-serif;
+  } */
+
+
